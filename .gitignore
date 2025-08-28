@@ -1,17 +1,65 @@
+# Virtual environments
 venv/
-__pycache__/
-.pytest_cache/
-.ipynb_checkpoints/
-*.pyc
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
 
-
-
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 *.db
+
+# Jupyter / Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Test / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Build / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+MANIFEST
+wheels/
+*.spec
+
+# Logs
+*.log
+
+# Environments
+.env
+.envrc
+
+# Cache
 .cache/
 .huggingface/
+.ruff_cache/
+.dmypy.json
+.mypy_cache/
+
+# IDE / Editor
+.spyderproject
+.spyproject
+.ropeproject
+.pyre/
+.pytype/
+cython_debug/
+.idea/
+.vscode/
+
+# Others
 *.zip
-.env
+marimo/_static/
+marimo/_lsp/
+__marimo__/
